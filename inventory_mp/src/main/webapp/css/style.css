@@ -1,0 +1,263 @@
+.title{                           /* 페이지 제목 */
+  font-size: 24px;
+  font-family: 돋움체;
+  text-align: center;
+  width: 30%;
+  /*border-style: double;*/ /* solid : 실선 */
+  border-color: #fff;
+  margin: 20px auto;      /* 위아래 20씩 여백 */
+  padding: 5px;
+  background-color: #FF99CC;    /*,그라데이션 넣을거임  */
+  text-shadow: 2px 2px 2px #003366; 
+  border-radius: 100px 0px 100px 0px / 80px 0px 80px 0px;
+  
+}/* 이미지 마음대로 하기(칼라등) */
+
+.content{                         /* 내용 */
+  width: 95%;
+  margin: 0 auto; /* 센터 중앙 */
+}
+
+.content2{                         /* 내용 */
+  width: 95%;
+  margin-top: 50px;
+  margin-rignt: auto;
+  margin-bottom: 10px;
+  margin-left: auto;
+  text-align: center;  
+}
+
+
+.top{                             /* 상단 메뉴 */
+  width: 95%;  
+  text-align: right;
+  margin: 2px auto;
+  border-bottom-style: solid; 
+  border-bottom-color: #FF99CC;
+  border-bottom-width: 1px; 
+  padding-bottom: 2px; 
+}
+
+.top_menu{
+  font-size: 12px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #FF99CC;
+  width: 100%;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.bottom{                          /* 하단 메뉴 */
+  width: 95%;  
+  text-align: center;
+  margin: 20px auto;
+  /* border-bottom-style: solid; 
+  border-bottom-color: #FF99CC;
+  border-bottom-width: 1px;  */
+  padding-bottom: 10px; 
+}
+
+.msg{                             /* 메시지 */
+  width: 80%;
+  margin: 0 auto; /* 센터 중앙 */
+  text-align: center;
+  padding: 30px;
+  border: 1px;
+  border-color: #FF99CC;
+  border-sytle: solid;
+  background: #EEEEEE;
+  box-shadow: 5px 5px 5px #FF99CC;
+}
+
+.table{                           /* 테이블 */
+  border: 1px;
+  border-color: #CC297A;
+  border-style: solid;
+}
+
+.table_grid{                           /* Grid 테이블 */
+  border: 0px;
+  border-color: #CC297A;
+  border-style: none;
+}
+
+TH{                               /* 모든 TH 태크 */
+  border: 1px;
+  border-color: #D3D3D3;
+  border-style: solid;  /* solid : 실선 */
+  color: #FFFFFF;       /* 글자색*/
+  background: #FF99CC;
+}
+
+.td{                               /* 모든 TD 태크 */
+  border: 1px;
+  border-color: #D3D3D3;
+  border-style: inset;   /* solid : 실선 */
+  font-weight: bold;
+  background: #EEEEEE;
+}
+
+.product_table{                               /* 모든 TD 태크 */
+  border: 1px;
+  border-color: #D3D3D3;
+  border-style: solid;   /* solid : 실선 */
+  background: #fff;
+}
+
+.td_grid{                               /* 모든 TD 태크 */
+  border: 0px;
+  border-color: #FF99CC;
+  border-style: inset;   /* solid : 실선 */
+  color: #555555;
+  padding-bottom: 10px;
+}
+
+body{                               
+  background-image: url("../mpgroup/images/bg_2560.jpg");
+  background-repeat: no-repeat;/* no-repeat*/
+  background-position: 0% 0px;
+}
+
+.wrbtnimg{
+ background: url("../images/wr01.png") no-repeat;
+ border: none;
+ width: 65px;
+ height: 28px;
+ cursor: pointer;
+}
+
+.chbtnimg{
+ background: url("../images/ch01.png") no-repeat;
+ border: none;
+ width: 65px;
+ height: 28px;
+ cursor: pointer;
+}
+
+.libtnimg{
+ background: url("../images/list01.png") no-repeat;
+ border: none;
+ width: 65px;
+ height: 28px;
+ cursor: pointer;
+}
+
+.cabtnimg{
+ background: url("../images/ca01.png") no-repeat;
+ border: none;
+ width: 65px;
+ height: 28px;
+ cursor: pointer;
+}
+
+.debtnimg{
+ background: url("../images/de01.png") no-repeat;
+ border: none;
+ width: 65px;
+ height: 28px;
+ cursor: pointer;
+}
+.okbtnimg{
+ background: url("../images/s_ok01.jpg") no-repeat;
+ border: none;
+ width: 32px;
+ height: 32px;
+ cursor: pointer;
+}
+
+.srbtnimg{
+ background: url("../images/sr01.png") no-repeat;
+ border: none;
+ width: 65px;
+ height: 28px;
+ cursor: pointer;
+}
+
+.rebtnimg{
+ background: url("../images/re01.png") no-repeat;
+ border: none;
+ width: 65px;
+ height: 28px;
+ cursor: pointer;
+}
+
+.alibtnimg{
+ background: url("../images/alist01.png") no-repeat;
+ border: none;
+ width: 75px;
+ height: 28px;
+ cursor: pointer;
+}
+
+.agbtnimg{
+ background: url("../images/ag01.png") no-repeat;
+ border: none;
+ width: 75px;
+ height: 28px;
+ cursor: pointer;
+}
+
+.upbtnimg{
+ background: url("../images/up01.png") no-repeat;
+ border: none;
+ width: 75px;
+ height: 28px;
+ cursor: pointer;
+}
+
+.wr2btnimg{
+ background: url("../images/wr02.png") no-repeat;
+ border: none;
+ width: 75px;
+ height: 28px;
+ cursor: pointer;
+}
+
+.de2btnimg{
+ background: url("../images/de02.png") no-repeat;
+ border: none;
+ width: 75px;
+ height: 28px;
+ cursor: pointer;
+}
+
+.A:link{  /* A 태그의 링크 속성*/
+  text-decoration: none;
+  color: black;
+}
+
+.A:hover{ /* A 태그에 마우스가 올라 갔을 경우*/
+  text-decoration: none; 
+  background-color: #DDDDDD; /* #FFFFFF */
+  color: black;  
+}
+
+.A:visited{ /* A 태그의 링크를 방문한 경우*/
+  text-decoration: none; 
+  color: black;  
+}
+
+.fieldset5 {
+    margin-top: 0px;
+    padding-top: 0px; 
+    border-top-width: 1px;    /* 태그의 위쪽선 두께*/ 
+    border-left-width: 1px;   /* 태그의 왼쪽선 두께*/
+    border-bottom-width: 1px; /* 태그의 아래쪽선 두께*/
+    border-right-width: 1px;  /* 태그의 오른쪽선 두께*/  
+    border-style:solid;
+    border-top-color: #BDBDBD;
+    border-right-color: white;
+    border-left-color: white;
+    border-bottom-color: #BDBDBD;
+    font-size:12px;        /* 제목 글자 크기 */
+    color: #000000;        /* 제목*/ 
+}
+#container{
+	width: 100%;
+}
+#w1000lay {
+	width: 1000px;
+	margin: 0 auto;
+	
+}
